@@ -1,4 +1,4 @@
-FROM python:3-alpine
+FROM python:3.10.12-alpine
 
 # install build deps for pycryptodome and other c-based python modules
 RUN apk add alpine-sdk autoconf automake libtool gcc
